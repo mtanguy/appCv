@@ -20,6 +20,39 @@ and open the template in the editor.
                 background: #aaa;
            }
 
+           #logo {
+                height: 155px;
+                width: 155px;
+                float: left;
+                margin-left: 30px;
+                margin-top: -20px;
+           }
+
+          #logoText {
+                margin:0px 0 0 70px;
+    /* font styles apply to text within alt tags */
+                font-family: 'American Typewriter', Courier,monospace;
+                font-size: 50px;
+                color: #333;
+            }
+ 
+            #widgetBar {
+               height:190px;
+               width: 850px;
+               float: right;
+               background: #ccc;
+           }
+
+            .headerWidget {
+                width:420px;
+                height:160px;
+                margin: 20px 2px;
+                font-size: small;
+                float: right;
+                line-height:25px;
+                background: #aaa;
+            }
+
           #footer {
                 height: 60px;
                 clear: left;
@@ -28,23 +61,23 @@ and open the template in the editor.
 
           #indexLeftColumn {
                 height: 400px;
-                width: 350px;
+                width: 283px;
                 float: left;
                 background:#ccc;
            }
 
           #indexMiddleColumn {
               height: 400px;
-              width: 500px;
+              width: 283px;
               float:left;
               background: #eee;
           }
 
           #indexRightColumn {
               height: 400px;
-              width: 500px;
+              width: 283px;
               float:left;
-              background: #eee;
+              background: #ccc;
           }
 
         </style>
@@ -54,8 +87,18 @@ and open the template in the editor.
     <body>
       <div id="main">
           <div id="header">
-            header
-          </div>
+              <div id="widgetBar">
+                  <div class="headerWidget">
+                      [ address ]
+                  </div>
+                  <div class="headerWidget">
+                      [ widget ]
+                  </div>
+              </div>
+
+
+              <img src="#" id="logoText" alt="Annalyste Programmeur">
+          
 
          <div id="indexLeftColumn">
           left column
