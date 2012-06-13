@@ -9,7 +9,7 @@ and open the template in the editor.
             body {
                 font-family: Arial, Helvetica, sans-serif;
                 width: 850px;
-                text-align: center;
+                text-align: left;
                 margin: 20px auto;
             }
 
@@ -34,6 +34,8 @@ and open the template in the editor.
                 font-family: 'American Typewriter', Courier,monospace;
                 font-size: 50px;
                 color: #333;
+                text-align:center;
+
             }
  
             #widgetBar {
@@ -54,31 +56,37 @@ and open the template in the editor.
             }
 
           #footer {
-                height: 130px;
+                height: 150px;
                 clear: left;
-                background: #aaa;
+                background: #ccc;
            }
 
           #indexLeftColumn {
-                height: 1600px;
-                width: 283px;
+                height:750px;
+                width:850px;
                 float: left;
                 background:#ccc;
            }
-
           #indexMiddleColumn {
-              height: 1600px;
-              width: 283px;
-              float:left;
-              background: #eee;
-          }
-
-          #indexRightColumn {
-              height: 1600px;
-              width: 283px;
+              height: 950px;
+              width: 850px;
               float:left;
               background: #ccc;
           }
+
+          #indexRightColumn {
+              height: 300px;
+              width: 850px;
+              float:left;
+              background: #ccc;
+          }
+           .indexColumnTitle {
+               margin:10px;
+               width:850px;
+               color: #333;
+               background:#aaa;
+               text-align:center;
+           }
 
         </style>
         <title></title>
@@ -106,9 +114,9 @@ and open the template in the editor.
 
               <img src="#" id="logoText" alt="Annalyste Programmeur">
           
-
+              </div>
          <div id="indexLeftColumn">
-             Compétences</br></br> 
+             <div class="indexColumnTitle"> Compétences</div></br></br> 
               4 mois d'expériences en java</br>
               Maîtrise des différents protocoles HPRIM : HPRIM santé, H.PR.I.M.
               Médecins, H.PR.I.M. NET, HPRIM XML</br>
@@ -121,31 +129,31 @@ and open the template in the editor.
             c, c++, java ,jsp sql, pl/sql, t/sql, xml, xpath et xlt,
             dom,restlet, ajax, html, css</br>
 
-            </br>  developpement web java</br>
-            J2ee serveur Tomcat, Servlet 
+            </br>  Développement web java</br>
+            J2ee serveur Tomcat, Servlet </br>
 
-            </br>FRAMEWORKS</br>
+            </br>Frameworks</br>
             spring, hibernate</br>
             
-            </br>systèmes </br>
+            </br>Systèmes </br>
              windows, linux</br>
 
-             </br>outils de développement</br>
+             </br>Outils de développement</br>
              vi, netbeans,eclipse</br>
 
-             </br>architecture</br>
+             </br>Architecture</br>
              soa, 2-tiers, 3-tiers n-tiers</br>
 
-             </br>sgbd/jdbc</br>
+             </br>Sgbd/Jdbc</br>
              oracle, sql server, sybase</br>
 
-             </br>gestion de versions</br>
+             </br>Gestion de versions</br>
              subversion (svn), git</br>
 
-             </br>modélisation objet</br>
+             </br>Modélisation objet</br>
              uml, design patterns</br>
 
-             </br>conduite de projet</br>
+             </br>Conduite de projet</br>
               structurer, planifier (coût, délais), estimer les délais, la
               charge les jalons, suivre l’avancement du projet et les risque
               associés,rendre compte sur les écartset les messures
@@ -155,21 +163,8 @@ and open the template in the editor.
          </div>
 
          <div id="indexMiddleColumn">
-             Formations</br>
-             </br>2011-2012  Développeur d’Applications PGI/ERP  Niveau III
-             (équivalent BTS/DUT ) MASSY</br> 
-             </br>2008       Accompagnateur à la scolarité </br>
-             </br>2002- 2004 Diplôme d’Etat de Concepteur Développeur en Systèmes
-             Électroniques – Niveau III (équivalent BTS DUT ) PARIS</br>  
-             </br>2000-2001  Niveau DEUG Génie des Systèmes Industriels (GSI)–
-             Évry</br>
-             </br>1996-2000   Niveau DEUG Sciences de la matière Évry </br>
-             </br>1996       Baccalauréat Scientifique – Spécialité Mathématiques –
-             Montgeron </br>
-         </div>
-         
-         <div id="indexRightColumn">
-             Expériences</br>
+             <div class="indexColumnTitle"> Expériences</div>
+                     </br>
              </br>ENTREPRISE ALIXEN</br>
 
              2012</br>
@@ -208,19 +203,19 @@ and open the template in the editor.
 
              environnement fonctionnel</br>
              mes analyses, agfa bioserveur</br>
-             2011 Stage de développeur Java duré 2mois
+             </br>2011 Stage de développeur Java duré 2mois
                 ALIXEN Ingénierie des Logiciels libres Bureau d'études
                 techniques, Cabinet d'ingénieurs-conseils, société de conseils
 
             
-            Test d’application web développer en java
+                Test d’application web développer en java
     
-            2007-2011 Adjoint d’animation et Adjoint technique 
+                </br>         </br>   2007-2011 Adjoint d’animation et Adjoint technique 
 
             VILLE DE DRAVEIL –Centre d’Animation Sociale et Culturelle Oberkirch –Draveil Sécurité
 
 
-            2006 Evaluation en milieu de travail 
+            </br></br>            2006 Evaluation en milieu de travail 
 
             ALKAN équipementier  Aéronautique - Direction technique - Service Électronique:
             Conception sur Orcad 10.0 et Développement du Système informatique embarqué
@@ -232,19 +227,33 @@ and open the template in the editor.
             Rédaction d’une notice technique 
 
 
-         2004 Stage de conception en électronique aéronautique durée 2 mois
+            </br> </br>2004 Stage de conception en électronique aéronautique durée 2 mois
          ALKAN équipementier Aéronautique-DirectionTechnique -Service
          Électronique: Conception sur Orcad 10.0 et Développement en assembleur du Système informatique embarqué
 
          Test et Contrôle en température du prototype avec le logiciel Cananalyser
          Rédaction d’un rapport technique 
-         2001-2002 Missions en intérim :manutention, inventaire 
-         2001 Stage en Réparation Automobile,Garage du chemin Vert –Draveil(91) 
-         1999-2002 Répétiteur,Soutien scolaire,Association« Coup de Pouce » -Draveil(91) 
+         </br></br>         2001-2002 Missions en intérim :manutention, inventaire 
+         </br></br>         2001 Stage en Réparation Automobile,Garage du chemin Vert –Draveil(91) 
+         </br></br>         1999-2002 Répétiteur,Soutien scolaire,Association« Coup de Pouce » -Draveil(91) 
+         </div>
+         <div id="indexRightColumn">
+             <div class="indexColumnTitle"> Formations</div>
+                 </br>
+             </br>2011-2012  Développeur d’Applications PGI/ERP  Niveau III
+             (équivalent BTS/DUT ) MASSY</br> 
+             </br>2008       Accompagnateur à la scolarité </br>
+             </br>2002- 2004 Diplôme d’Etat de Concepteur Développeur en Systèmes
+             Électroniques – Niveau III (équivalent BTS DUT ) PARIS</br>  
+             </br>2000-2001  Niveau DEUG Génie des Systèmes Industriels (GSI)–
+             Évry</br>
+             </br>1996-2000   Niveau DEUG Sciences de la matière Évry </br>
+             </br>1996       Baccalauréat Scientifique – Spécialité Mathématiques –
+             Montgeron </br>
          </div>
 
          <div id="footer">
-             Centres d’intérêts : </br>
+             <div class="indexColumnTitle"> Centres d’intérêts :</div> </br>
              Passionné d’Informatique</br>
              Lecture (Science Fiction : Barjavel, Huxley, …), revue
              ELEKTOR</br>
@@ -253,7 +262,9 @@ and open the template in the editor.
              Échecs (Jeu en réseau)  Conception de robots mobiles
              programmables</br>
          </div>
-      </div>
+         </div>
+         
+      
     </body>
 </html>
 
